@@ -1,0 +1,60 @@
+CRITICAL - 2022-06-07 01:49:12 --> Undefined property: App\Controllers\Auth::$user_model
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/ankitpara...', 257, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->social_login()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 01:49:53 --> User does not exist for specified email address
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(283): App\Models\UserModel->findUserByEmailAddress('testsocial@gmai...')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->social_login()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 01:52:53 --> Undefined variable: emailAddress
+#0 /home/ankitparastechno/public_html/ebikes/app/Models/UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 87, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(283): App\Models\UserModel->get_user_by_email('testsocial@gmai...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->social_login()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-07 01:56:53 --> Argument 1 passed to App\Models\UserModel::get_user() must be of the type string, array given, called in /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php on line 295
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(295): App\Models\UserModel->get_user(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->social_login()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-07 01:57:46 --> Operand should contain 1 column(s)
+CRITICAL - 2022-06-07 01:57:46 --> Operand should contain 1 column(s)
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /home/ankitparastechno/public_html/ebikes/app/Models/UserModel.php(80): CodeIgniter\BaseModel->first()
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(295): App\Models\UserModel->get_user(Array)
+#8 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->social_login()
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-07 02:09:17 --> Duplicate entry '' for key 'email'
+CRITICAL - 2022-06-07 02:09:17 --> Duplicate entry '' for key 'email'
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(291): CodeIgniter\BaseModel->save(Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->social_login()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

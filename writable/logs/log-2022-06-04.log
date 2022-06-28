@@ -1,0 +1,90 @@
+CRITICAL - 2022-06-04 00:24:23 --> Cannot declare class App\Models\BookingModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-04 00:32:34 --> Cannot declare class App\Models\BookingModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-04 00:33:59 --> Return value of App\Models\BookingModel::beforeInsert() must be of the type array, none returned
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/BaseModel.php(1456): App\Models\BookingModel->beforeInsert(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/BaseModel.php(735): CodeIgniter\BaseModel->trigger('beforeInsert', Array)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(214): CodeIgniter\Model->insert(Array)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->create_booking()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-04 00:37:30 --> Return value of App\Models\BookingModel::beforeInsert() must be of the type array, none returned
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/BaseModel.php(1456): App\Models\BookingModel->beforeInsert(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/BaseModel.php(735): CodeIgniter\BaseModel->trigger('beforeInsert', Array)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(214): CodeIgniter\Model->insert(Array)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->create_booking()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-04 01:13:45 --> Undefined variable: item
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(256): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 256, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->update_booking()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 01:19:26 --> Undefined index: $input
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 261, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->update_booking()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 02:10:25 --> Undefined property: App\Controllers\Api::$user_model
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/ankitpara...', 210, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_products()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 04:11:16 --> Call to undefined method App\Models\ProductModel::get_products
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(210): CodeIgniter\Model->__call('get_products', Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_products()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 04:37:09 --> Undefined variable: db
+#0 /home/ankitparastechno/public_html/ebikes/app/Models/ProductModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 52, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(210): App\Models\ProductModel->get_products(Array, 20, 0)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_products()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 04:37:21 --> Undefined index: count
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 224, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_products()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 04:57:14 --> Undefined index: count
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 224, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_products()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 04:57:41 --> Call to a member function first() on array
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(221): App\Models\ProductModel->get_products(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_products()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 04:59:42 --> Undefined index: count
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 224, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_products()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

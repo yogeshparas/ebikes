@@ -1,0 +1,42 @@
+CRITICAL - 2022-05-24 05:30:55 --> Call to a member function getAlgorithm() on string
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(18): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'kedSouT3k3kr4p5...', 'HS256')
+#1 /home/ankitparastechno/public_html/ebikes/app/Filters/JWTAuthenticationFilter.php(24): validateJWTFromRequest('eyJ0eXAiOiJKV1Q...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\JWTAuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/test', 'before')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-24 05:43:11 --> Class 'Key' not found
+#0 /home/ankitparastechno/public_html/ebikes/app/Filters/JWTAuthenticationFilter.php(24): validateJWTFromRequest('eyJ0eXAiOiJKV1Q...')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\JWTAuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/test', 'before')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 05:43:58 --> Class 'Key' not found
+#0 /home/ankitparastechno/public_html/ebikes/app/Filters/JWTAuthenticationFilter.php(24): validateJWTFromRequest('eyJ0eXAiOiJKV1Q...')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\JWTAuthenticationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/test', 'before')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 08:13:43 --> Undefined variable: model
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 74, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 08:14:32 --> Argument 1 passed to App\Controllers\Auth::getJWTForUser() must be of the type string, array given, called in /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php on line 76
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(76): App\Controllers\Auth->getJWTForUser(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 08:16:33 --> Class 'App\Controllers\UserModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

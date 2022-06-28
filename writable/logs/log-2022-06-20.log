@@ -1,0 +1,90 @@
+CRITICAL - 2022-06-20 04:49:09 --> Class 'App\Controllers\ProductAddonModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 05:03:31 --> Class 'App\Controllers\ProductAddonModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 05:05:00 --> Class 'App\Controllers\ProductAddonModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 05:05:05 --> Class 'App\Controllers\ProductAddonModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 05:06:21 --> Class 'App\Controllers\AddonModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 05:07:43 --> Class 'App\Controllers\AddonModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 05:07:45 --> Class 'App\Controllers\AddonModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 05:08:33 --> Class 'App\Controllers\ProductAddonModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-20 06:18:39 --> Undefined property: App\Controllers\Api::$userModel
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/ankitpara...', 417, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_ratings()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 06:19:03 --> Call to undefined method App\Models\RatingModel::get_ratings
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(417): CodeIgniter\Model->__call('get_ratings', Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_ratings()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 06:19:27 --> Undefined variable: inpt
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(417): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 417, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_ratings()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 06:19:37 --> Call to undefined method App\Models\RatingModel::get_ratings
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(417): CodeIgniter\Model->__call('get_ratings', Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_ratings()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 06:20:23 --> Call to undefined method App\Models\RatingModel::get_ratings
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(417): CodeIgniter\Model->__call('get_ratings', Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_ratings()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 06:28:46 --> Call to undefined method App\Models\RatingModel::get_ratings
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(417): CodeIgniter\Model->__call('get_ratings', Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_ratings()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

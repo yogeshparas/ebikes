@@ -1,0 +1,640 @@
+CRITICAL - 2022-05-27 00:46:26 --> Undefined variable: request
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 14, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 00:49:25 --> Call to a member function getServer() on null
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 00:51:33 --> syntax error, unexpected 'use' (T_USE), expecting ',' or ';'
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('api/test')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle('api/test')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 00:51:51 --> Class 'App\Controllers\request' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 00:52:17 --> Class 'App\Controllers\request' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 00:53:11 --> Class 'App\Controllers\request' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 00:53:24 --> Class 'App\Controllers\request' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 00:53:32 --> Class 'App\Controllers\request' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 00:55:47 --> Trying to get property 'proxyIPs' of non-object
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/HTTP/Request.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/ankitpara...', 58, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(14): CodeIgniter\HTTP\Request->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 00:56:27 --> Class 'App\Controllers\Config\Services' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:02:09 --> Class 'App\Controllers\request' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:02:30 --> Call to undefined method Config\Services::getServer()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:13:47 --> Cannot instantiate interface CodeIgniter\HTTP\RequestInterface
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:14:32 --> Cannot instantiate interface CodeIgniter\HTTP\RequestInterface
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:14:34 --> Cannot instantiate interface CodeIgniter\HTTP\RequestInterface
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:14:52 --> Non-static method CodeIgniter\HTTP\RequestInterface::getServer() cannot be called statically
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:16:53 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and exactly 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:17:48 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and exactly 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:18:59 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and exactly 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:19:22 --> Default value for parameters with a class type can only be NULL
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-27 01:20:58 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and exactly 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:21:43 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and at least 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:21:47 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and at least 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:23:47 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and at least 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:23:49 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and at least 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:24:15 --> Non-static method CodeIgniter\HTTP\RequestInterface::getServer() cannot be called statically
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:26:41 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and exactly 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:29:32 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and exactly 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:32:11 --> Too few arguments to function App\Controllers\Api::__construct(), 0 passed in /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php on line 809 and exactly 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:32:28 --> Call to a member function getServer() on null
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:32:45 --> Call to a member function getServer() on null
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:40:57 --> Call to undefined function App\Controllers\validateJWTFromRequest()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 01:41:46 --> Undefined variable: current_user_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 59, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->test()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 01:42:07 --> Undefined variable: current_user_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 59, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->test()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 01:54:13 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 01:56:24 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 01:57:05 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:13:17 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:14:26 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:17:32 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:18:38 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:18:58 --> Class 'App\Controllers\ResponseTrait' not found
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:25:45 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/ankitpara...', 30, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:26:29 --> Undefined variable: response
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 56, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): App\Controllers\BaseController->getResponse(Array)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 02:26:37 --> Undefined variable: response
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 56, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): App\Controllers\BaseController->getResponse(Array)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 02:27:02 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:28:42 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:29:33 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:31:48 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:32:55 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:36:24 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(24): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:36:55 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(24): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:41:53 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(31): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:42:32 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:42:48 --> Call to undefined function App\Controllers\getResponse()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 02:43:29 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:44:30 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 02:44:56 --> Non-static method CodeIgniter\HTTP\ResponseInterface::setStatusCode() cannot be called statically
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 02:45:46 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 02:48:51 --> Declaration of App\Controllers\Api::initController() should be compatible with App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', '/home/ankitpara...', 11, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Router/Router.php(518): include_once('/home/ankitpara...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('api/test')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle('api/test')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:50:34 --> Declaration of App\Controllers\Api::initController() should be compatible with App\Controllers\BaseController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', '/home/ankitpara...', 11, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Router/Router.php(518): include_once('/home/ankitpara...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('api/test')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle('api/test')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:50:42 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(30): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 02:51:57 --> Call to undefined method CodeIgniter\HTTP\Response::getServer()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 02:52:18 --> Call to a member function setStatusCode() on array
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 02:53:31 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 03:00:30 --> auth filter must have a matching alias defined.
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize('api/test')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/test', 'before')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 04:29:06 --> Cannot call constructor
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 04:30:04 --> Undefined variable: request
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 16, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 04:40:19 --> Call to undefined function App\Controllers\get_current_user_id()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 04:40:34 --> Undefined variable: request
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 109, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(21): App\Controllers\BaseController->get_current_user_id()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 04:41:05 --> Too few arguments to function App\Controllers\BaseController::get_current_user_id(), 0 passed in /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php on line 21 and exactly 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(21): App\Controllers\BaseController->get_current_user_id()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 04:41:58 --> Call to a member function getServer() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(21): App\Controllers\BaseController->get_current_user_id()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 04:42:50 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(122): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(21): App\Controllers\BaseController->get_current_user_id()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 04:43:05 --> Call to a member function setStatusCode() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(123): App\Controllers\BaseController->getResponse(Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(21): App\Controllers\BaseController->get_current_user_id()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 04:48:04 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(21): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/ankitpara...', 21, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 05:14:35 --> Undefined property: App\Controllers\Api::$current_user_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/ankitpara...', 21, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 05:15:22 --> Object of class App\Controllers\Api could not be converted to string
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/ankitpara...', 24, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 05:16:29 --> Object of class CodeIgniter\HTTP\Response could not be converted to int
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', '/home/ankitpara...', 21, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 06:20:49 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/ankitpara...', 29, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Api->__construct()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 06:28:28 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(55): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/ankitpara...', 55, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->test()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 06:32:34 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(123): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/home/ankitpara...', 123, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(55): App\Controllers\BaseController->get_current_user_id()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->test()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 06:43:39 --> Undefined variable: response
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 71, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->test()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 06:45:19 --> Undefined variable: res
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 56, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->test()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 07:19:26 --> Object of class CodeIgniter\HTTP\Response could not be converted to int
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', '/home/ankitpara...', 57, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->test()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 07:20:30 --> Undefined variable: user_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 67, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->test()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 07:20:31 --> Undefined variable: user_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 67, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->test()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 07:58:07 --> Undefined variable: id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 29, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->logout()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 08:10:21 --> Undefined property: App\Controllers\Auth::$form_validation
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/ankitpara...', 159, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->forgot_password()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 08:11:22 --> Undefined variable: errors
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 165, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->forgot_password()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 08:11:53 --> Undefined property: App\Controllers\Auth::$_args
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/ankitpara...', 172, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->forgot_password()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 08:12:05 --> Undefined property: App\Controllers\Auth::$_args
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/ankitpara...', 172, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->forgot_password()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 08:14:28 --> Undefined index: http_status
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 54, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(207): App\Controllers\BaseController->output(Array)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->forgot_password()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:15:38 --> Undefined index: http_status
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 54, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(207): App\Controllers\BaseController->output(Array)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->forgot_password()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:16:11 --> Undefined index: http_status
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 54, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(207): App\Controllers\BaseController->output(Array)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->forgot_password()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-27 08:18:34 --> Undefined index: http_status
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 54, Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(211): App\Controllers\BaseController->output(Array)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->forgot_password()
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,334 @@
+CRITICAL - 2022-05-23 06:12:03 --> Call to undefined method App\Controllers\Api::getRequestInput()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:14:47 --> Call to undefined method App\Controllers\Api::getRequestInput()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:15:17 --> Call to undefined method App\Controllers\Api::getRequestInput()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:22:45 --> Call to undefined method App\Controllers\Api::validateRequest()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:23:32 --> Call to undefined method App\Controllers\Api::validateRequest()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:26:43 --> Call to undefined method App\Controllers\Api::validateRequest()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:26:46 --> Call to undefined method App\Controllers\Api::validateRequest()
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:28:35 --> Class 'App\Controllers\Services' not found
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(27): App\Controllers\BaseController->validateRequest(Array, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:28:53 --> Class 'App\Controllers\Services' not found
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(26): App\Controllers\BaseController->validateRequest(Array, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:29:03 --> Class 'App\Controllers\Services' not found
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(26): App\Controllers\BaseController->validateRequest(Array, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:29:54 --> Class 'App\Controllers\Services' not found
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(26): App\Controllers\BaseController->validateRequest(Array, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:30:04 --> Class 'App\Controllers\Services' not found
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(26): App\Controllers\BaseController->validateRequest(Array, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:30:43 --> Class 'App\Controllers\Services' not found
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(26): App\Controllers\BaseController->validateRequest(Array, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:30:45 --> Class 'App\Controllers\Services' not found
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(26): App\Controllers\BaseController->validateRequest(Array, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:47:54 --> Call to a member function run() on null
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(29): App\Controllers\BaseController->get_validation_error()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 06:48:27 --> Class 'App\Controllers\REST_Controller' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:48:30 --> Class 'App\Controllers\REST_Controller' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:49:14 --> Class 'App\Controllers\REST_Controller' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:49:46 --> Class 'App\Controllers\REST_Controller' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:50:08 --> Class 'App\Controllers\REST_Controller' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:50:37 --> Class 'App\Controllers\REST_Controller' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:50:39 --> Class 'App\Controllers\REST_Controller' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 06:53:31 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'kedSouT3k3kr4p5...')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 06:59:27 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'kedSouT3k3kr4p5...')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 07:01:05 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'kedSouT3k3kr4p5...')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 07:01:18 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'kedSouT3k3kr4p5...')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 07:01:58 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'test')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 07:04:43 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'test')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 07:04:45 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'test')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 07:06:53 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'kedSouT3k3kr4p5...')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 07:10:36 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'kedSouT3k3kr4p5...')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 07:10:40 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'kedSouT3k3kr4p5...')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 07:12:42 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35 and at least 3 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'kedSouT3k3kr4p5...')
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 07:18:58 --> Argument 3 passed to Firebase\JWT\JWT::encode() must be of the type string, array given, called in /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php on line 35
+#0 /home/ankitparastechno/public_html/ebikes/app/Helpers/jwt_helper.php(35): Firebase\JWT\JWT::encode(Array, 'kedSouT3k3kr4p5...', Array)
+#1 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(97): getSignedJWTForUser('test@test.com1s')
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(43): App\Controllers\Api->getJWTForUser('test@test.com1s', 201)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->register()
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 08:11:11 --> Default value for parameters with a string type can only be string or NULL
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-23 08:11:40 --> validateUser is not a valid rule.
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'testtest', Array, Array)
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(92): CodeIgniter\Validation\Validation->run(Array)
+#3 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(61): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->login()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-23 08:11:51 --> validateUser is not a valid rule.
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('validateUser')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'testtest', Array, Array)
+#2 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(92): CodeIgniter\Validation\Validation->run(Array)
+#3 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(61): App\Controllers\BaseController->validateRequest(Array, Array, Array)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->login()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-23 08:16:28 --> Undefined variable: email
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/ankitpara...', 68, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->login()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 08:35:24 --> auth filter must have a matching alias defined.
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize('api/login')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/login', 'before')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 08:35:36 --> auth filter must have a matching alias defined.
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize('api/test')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/test', 'before')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 08:39:56 --> auth filter must have a matching alias defined.
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize('api/test')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/test', 'before')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 08:40:24 --> auth filter must have a matching alias defined.
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize('api/test')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/test', 'before')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 08:40:26 --> auth filter must have a matching alias defined.
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize('api/test')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/test', 'before')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 08:40:49 --> auth filter must have a matching alias defined.
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize('api/test')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/test', 'before')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 08:41:23 --> auth filter must have a matching alias defined.
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize('api/test')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('api/test', 'before')
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

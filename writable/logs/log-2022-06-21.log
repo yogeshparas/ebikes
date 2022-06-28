@@ -1,0 +1,175 @@
+CRITICAL - 2022-06-21 00:05:37 --> Too few arguments to function App\Libraries\Functions::get_states(), 0 passed in /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php on line 681 and exactly 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(681): App\Libraries\Functions->get_states()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_states()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 00:06:07 --> Too few arguments to function App\Libraries\Functions::get_states(), 0 passed in /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php on line 681 and exactly 1 expected
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(681): App\Libraries\Functions->get_states()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_states()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-21 00:07:21 --> Table 'ankitparastechno_ebikes.state' doesn't exist
+CRITICAL - 2022-06-21 00:07:21 --> Table 'ankitparastechno_ebikes.state' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM s...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 /home/ankitparastechno/public_html/ebikes/app/Libraries/Functions.php(153): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(681): App\Libraries\Functions->get_states()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_states()
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-21 00:08:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''ID_STATE' = 2' at line 1
+CRITICAL - 2022-06-21 00:08:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''ID_STATE' = 2' at line 1
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM c...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 /home/ankitparastechno/public_html/ebikes/app/Libraries/Functions.php(158): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(706): App\Libraries\Functions->get_cities('2')
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-21 00:10:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+CRITICAL - 2022-06-21 00:10:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 2' at line 1
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM c...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 /home/ankitparastechno/public_html/ebikes/app/Libraries/Functions.php(158): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(706): App\Libraries\Functions->get_cities('2')
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-21 08:33:43 --> Undefined index: stripeToken
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 470, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cards()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 08:34:19 --> Invalid API Key provided: sk_test_**1234
+#0 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(216): Stripe\Exception\ApiErrorException::factory('Invalid API Key...', 401, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), NULL)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(175): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#2 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(560): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(124): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 401, Object(Stripe\Util\CaseInsensitiveArray))
+#4 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(78): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#5 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(25): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(468): Stripe\Charge::create(Array)
+#7 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cards()
+#8 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-21 08:34:55 --> No such token: 'dfgdfgdfgdfgdfg'
+#0 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('No such token: ...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'resource_missin...')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('No such token: ...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'resource_missin...', 'source')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(175): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(560): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(124): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(78): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(25): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(468): Stripe\Charge::create(Array)
+#8 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cards()
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-21 08:35:50 --> No such token: 'tok_1LD6ix2eZvKYlo2CsTwtYSLn'
+#0 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('No such token: ...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'resource_missin...')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('No such token: ...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'resource_missin...', 'source')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(175): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(560): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(124): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(78): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(25): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(468): Stripe\Charge::create(Array)
+#8 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cards()
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-21 08:38:06 --> No such token: 'tok_1LD7Gh2eZvKYlo2C5eUk9TYE'
+#0 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('No such token: ...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'resource_missin...')
+#1 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('No such token: ...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'resource_missin...', 'source')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(175): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array, Array)
+#3 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(560): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray), Array)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiRequestor.php(124): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Object(Stripe\Util\CaseInsensitiveArray))
+#5 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiOperations/Request.php(78): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/stripe/stripe-php/lib/ApiOperations/Create.php(25): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(468): Stripe\Charge::create(Array)
+#8 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cards()
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-21 23:52:34 --> Undefined index: sate_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 732, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 23:52:48 --> Undefined index: sate_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 732, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 23:53:05 --> Undefined index: sate_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 732, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 23:53:08 --> Undefined index: sate_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 732, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 23:53:19 --> Undefined index: sate_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 732, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 23:53:21 --> Undefined index: sate_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 732, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 23:53:22 --> Undefined index: sate_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 732, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 23:53:46 --> Undefined index: sate_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 732, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-21 23:53:48 --> Undefined index: sate_id
+#0 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/ankitpara...', 732, Array)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_cities()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

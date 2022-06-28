@@ -1,0 +1,184 @@
+ERROR - 2022-06-10 02:51:42 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+CRITICAL - 2022-06-10 02:51:42 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('test@gmail.com', 'email', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'test@gmail.com', Array, Array)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(88): CodeIgniter\Validation\Validation->run(Array)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-10 02:52:21 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+CRITICAL - 2022-06-10 02:52:21 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('test@gmail.com', 'email', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'test@gmail.com', Array, Array)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(88): CodeIgniter\Validation\Validation->run(Array)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-10 03:01:11 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+CRITICAL - 2022-06-10 03:01:11 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('y@test.com', 'email', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'y@test.com', Array, Array)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(88): CodeIgniter\Validation\Validation->run(Array)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-10 03:03:22 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+CRITICAL - 2022-06-10 03:03:22 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('y@test.com', 'email', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'y@test.com', Array, Array)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(88): CodeIgniter\Validation\Validation->run(Array)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-10 03:52:11 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+CRITICAL - 2022-06-10 03:52:11 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('test@gmail.com', 'email', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'test@gmail.com', Array, Array)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(88): CodeIgniter\Validation\Validation->run(Array)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-10 04:10:42 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+CRITICAL - 2022-06-10 04:10:42 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('y@test.com', 'email', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'y@test.com', Array, Array)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(88): CodeIgniter\Validation\Validation->run(Array)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-10 04:12:18 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+CRITICAL - 2022-06-10 04:12:18 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('y@test.com', 'email', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'y@test.com', Array, Array)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(88): CodeIgniter\Validation\Validation->run(Array)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-10 04:12:20 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+CRITICAL - 2022-06-10 04:12:20 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('y@test.com', 'email', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'y@test.com', Array, Array)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(88): CodeIgniter\Validation\Validation->run(Array)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-10 04:13:17 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+CRITICAL - 2022-06-10 04:13:17 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('y@test.com', 'email', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'y@test.com', Array, Array)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(88): CodeIgniter\Validation\Validation->run(Array)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-10 04:13:47 --> Cannot declare class App\Models\UsersModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-10 04:14:10 --> Class 'App\Models\UsersModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Auth->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-10 04:14:24 --> Class 'App\Controllers\UsersModel' not found
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Auth->__construct()
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-10 04:15:12 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+CRITICAL - 2022-06-10 04:15:12 --> Table 'ankitparastechno_ebikes.user' doesn't exist
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('y@test.com', 'email', Array, NULL)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'y@test.com', Array, Array)
+#7 /home/ankitparastechno/public_html/ebikes/app/Controllers/BaseController.php(88): CodeIgniter\Validation\Validation->run(Array)
+#8 /home/ankitparastechno/public_html/ebikes/app/Controllers/Auth.php(35): App\Controllers\BaseController->validateRequest(Array, Array)
+#9 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#10 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-10 04:15:40 --> Cannot declare class App\Models\UsersModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-10 04:16:05 --> Cannot declare class App\Models\UsersModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-10 04:16:26 --> Cannot declare class App\Models\UsersModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

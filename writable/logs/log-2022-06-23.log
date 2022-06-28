@@ -1,0 +1,13 @@
+ERROR - 2022-06-23 06:00:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+CRITICAL - 2022-06-23 06:00:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+#0 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT p.* FROM...', 0)
+#1 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT p.* FROM...')
+#2 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT p.* FROM...')
+#3 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT p.* FROM...')
+#4 /home/ankitparastechno/public_html/ebikes/app/Models/ProductModel.php(66): CodeIgniter\Model->__call('query', Array)
+#5 /home/ankitparastechno/public_html/ebikes/app/Controllers/Api.php(217): App\Models\ProductModel->get_products(Array)
+#6 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->get_products()
+#7 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#8 /home/ankitparastechno/public_html/ebikes/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/ankitparastechno/public_html/ebikes/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
